@@ -5,7 +5,6 @@
 *.png
 *.so
 mnist/
-data/
 caffe/
 grasp/
 images/
@@ -13,8 +12,9 @@ opencv/
 convnet/
 decaf/
 submission/
-cfg/
-build/darknet/*
+build/darknet/.vs
+build/darknet/x64/Debug
+build/darknet/x64/Release
 !build/darknet/YoloWrapper.cs
 .fuse*
 
